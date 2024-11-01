@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img/fitness.jpg" alt="logo">
+        </div>
+        <h1> Fitness and Wellness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-img-contact">
+        <img src="img/bg.jpg" alt="img" >
+    </div>
+    <main>
+        <h5> CONTACT US </h5>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+        <section class="contact-details">
+            <p>Email: info@FitnessandWellness.com</p>  
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+            <li><a href="#" ><i class="fab fa-twitter"></i> </a></li>
+        </ul>
+        <p>&copy; 2024 Fitness and Wellness. All rights reserved. </p>
+    </footer>
+</body>
+</html>

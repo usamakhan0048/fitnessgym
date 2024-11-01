@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img/fitness.jpg" alt="logo">
+        </div>
+        <h1>Fitness and Welness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="photos.html" class="active">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg-img-photos">
+        <img src="img/bg.jpg" alt="img" >
+    </div>
+    <main>
+        <section class="gallery">
+            <p>Browse through our workout techniques and transformation stories!</p> 
+            <h2>Transformation Stories</h2>
+            <div class="photo-container">
+                <div class="photo">
+                    <a href="#img1">
+                        <img src="img/transform.jpg" alt="Before and After Transformation 1">
+                    </a>
+                    <p class="ben-jackson">Ben Jackson 12-week Transformation </p> 
+
+                    <p>Ben Jackson, 45, from Warrington, swapped pies and beers for a low carb diet
+                        Dropped from 190lbs (86.5kg) to 174lbs (79kg) and 20 per cent body fat to just nine per cent
+                        He worked out in the gym fives times per week and ditched his fatty diet 
+                        A father-of-three has proven that you can totally transform your 'dad bod' in 12 weeks by embarking on a mid-life body overhaul.</p>
+
+
+                </div>
+                <div class="photo">
+                    <a href="#img2">
+                        <img src="img/weight-loss.jpg " alt="Before and After Transformation 2">
+                    </a>
+                    <p class="ben-jackson"> William Guinn Weight Loss Success</p>
+                    <p>Some lose weight in order to feel better about themselves or be healthier, but William did it because he had a dream to join the army. After losing 230 pounds not only his dream became a reality, but he also found a new love for living healthy and exercising.</p>
+                </div>
+            </div>
+
+            <h2>Workout Techniques</h2>
+
+            <div class="photo-container">
+                <p>Proper Squat Form</p>
+                <div class="photo">
+                    <a href="#img3">
+                        <img src="img/squat form.jpeg"  alt="Squat Technique">
+                    </a>
+                   
+                </div>
+                <p>Perfect Deadlift Posture</p>
+                  <div class="photo">
+                    <a href="#img4">
+                        <img src="img/Deadliftform.jpg" alt="Deadlift Technique">
+                    </a>
+            
+                </div>
+                <p>Mastering the Yoga Poses</p>
+                  <div class="photo">
+                    <a href="#img5">
+                        <img src="img/yoga.png" alt="Yoga Pose Technique">
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox modals -->
+        <div class="lightbox" id="img1">
+            <a href="#img1" class="close"></a>
+            <img src="img\transform.jpg" alt="Ben Jackson 12-week Transformation">
+        </div>
+
+        <div class="lightbox" id="img2">
+            <a href="#" class="close"></a>
+            <img src="img\weight-loss.jpg " alt="Guinn Weight Loss Success">
+        </div>
+    </main>
+
+    <footer>
+        <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> </a></li>
+            <li><a href="#" ><i class="fab fa-twitter"></i> </a></li>
+        </ul>
+        <p>&copy; 2024 Fitness and Wellness. All rights reserved. </p>
+    </footer>
+</body>
+</html>
